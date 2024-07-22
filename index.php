@@ -32,47 +32,47 @@
             text-align: center;
             font-size: 18px;
             font-weight: bold;
-            flex-wrap: wrap; /* Allow buttons to wrap to the next line if necessary */
+            flex-wrap: wrap;
             justify-content: center;
             margin-bottom: 20px;
-            border: 2px solid #ced4da; /* Add border color and width */
-            border-radius: 8px; /* Rounded corners */
-            padding: 10px; /* Padding inside the border */
-            background-color: #f8f9fa; /* Light background color */
+            border: 2px solid #ced4da;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: #f8f9fa;
         }
         .video-details {
            
         }
         .btn-number-container {
             display: flex;
-            flex-wrap: wrap; /* Allow buttons to wrap to the next line if necessary */
+            flex-wrap: wrap;
             justify-content: center;
             margin-bottom: 20px;
-            border: 2px solid #ced4da; /* Add border color and width */
-            border-radius: 8px; /* Rounded corners */
-            padding: 10px; /* Padding inside the border */
-            background-color: #f8f9fa; /* Light background color */
+            border: 2px solid #ced4da;
+            border-radius: 8px;
+            padding: 10px;
+            background-color: #f8f9fa;
         }
         .btn-number {
-            margin: 5px; /* Adjusted margin for better spacing */
+            margin: 5px;
         }
         .btn-active {
             background-color: #28a745;
             color: white;
         }
-        /* Centraliza o contêiner */
+       
         .container {
-            max-width: 870px; /* Ajuste para a largura desejada */
+            max-width: 870px;
         }
 
-        /* Opcional: ajuste o tamanho máximo da largura do card */
+       
         .card {
             max-width: 90%;
         }
 
-        /* Ajuste o padding do card para espaçamento */
+        
         .card-body {
-            padding: 1.5rem; /* Ajuste conforme necessário */
+            padding: 1.5rem;
         }       
 
     </style>
@@ -81,7 +81,7 @@
 
 <div class="container mt-5">
     <div class="row">
-        <div class="col-md-8 offset-md-2"> <!-- Changed to col-md-8 and offset-md-2 to center it -->
+        <div class="col-md-8 offset-md-2">
     <div class="card">
         <div class="card-header text-center">
             YouTube Video Downloader
